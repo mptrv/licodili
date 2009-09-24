@@ -87,6 +87,18 @@ on License".
  As Dicas Incluem Caminhos de Solução para Problemas Normalmente Encontrados.}
 \end_layout
 
+\begin_layout Standard
+Ver também 
+\emph on
+www.faqs.org/docs 
+\emph default
+(Tópico 
+\emph on
+Linux-related documents
+\emph default
+).
+\end_layout
+
 \begin_layout Chapter*
 Preface
 \end_layout
@@ -365,6 +377,240 @@ The Linux System
 Filosofy of the Directory Tree Structure
 \end_layout
 
+\begin_layout Standard
+
+\emph on
+{Could someone describe the arquives inside each directory with more detail
+ in another section?}
+\end_layout
+
+\begin_layout Standard
+The Linux basic directory tree structure is:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+/
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- bin
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- boot
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- dev
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- etc
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- home
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- initrd
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- lib
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- media
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- mnt
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- opt
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- proc
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- root
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- sbin
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- sys
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- tmp
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+|-- usr
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size footnotesize
+`-- var
+\family default
+\size default
+ 
+\end_layout
+
+\begin_layout Standard
+Below, is a description of each one:
+\end_layout
+
+\begin_layout Description
+/ is the root directory; all the others directories (i.e., subdirectories)
+ will be inside this.
+\end_layout
+
+\begin_layout Description
+/boot contains the boot program, called by the computer's BIOS; typically,
+ the program is the 
+\family typewriter
+\size footnotesize
+vmlinuz
+\family default
+\size default
+.
+\end_layout
+
+\begin_layout Description
+/dev have all the device type files automaticaly recognized by the system;
+ these are used to communicate with the peripherals.
+\end_layout
+
+\begin_layout Description
+/etc miscellaneous start-up configuration files (see others section for
+ more information).
+\end_layout
+
+\begin_layout Description
+/home users' data directory; each user will have your own one, at first.
+\end_layout
+
+\begin_layout Description
+/initrd 
+\emph on
+{someone could describe this?}
+\end_layout
+
+\begin_layout Description
+/lib contains numerous library files of the system 
+\emph on
+{someone could be more specific?}
+\end_layout
+
+\begin_layout Description
+/media directories for mounted removable devices, such as mass storage or
+ CD-ROM devices.
+\end_layout
+
+\begin_layout Description
+/mnt directories for mounted non-removable devices, such as a partition
+ for another operating system.
+\end_layout
+
+\begin_layout Description
+/opt 
+\emph on
+{someone could describe this?}
+\end_layout
+
+\begin_layout Description
+/proc 
+\emph on
+{someone could describe this?}
+\end_layout
+
+\begin_layout Description
+/root root's directory (i.e., system administrator directory).
+\end_layout
+
+\begin_layout Description
+/sbin some system administration binaries (programs).
+\end_layout
+
+\begin_layout Description
+/sys 
+\emph on
+{someone could describe this?}
+\end_layout
+
+\begin_layout Description
+/tmp system-wide temporary directory.
+\end_layout
+
+\begin_layout Description
+/usr programs for all users.
+\end_layout
+
+\begin_layout Description
+/var some files acting as system-wide variables and log files.
+\end_layout
+
 \begin_layout Section
 Basic Command Set for System Administration
 \end_layout
@@ -475,6 +721,14 @@ backend
 \end_inset
 
 s, quando houver.}
+\end_layout
+
+\begin_layout Part
+Tips for Developers
+\end_layout
+
+\begin_layout Standard
+{Recursos e conjunto de programas úteis para diversos tipos de desenvolvimento.}
 \end_layout
 
 \begin_layout Part*
