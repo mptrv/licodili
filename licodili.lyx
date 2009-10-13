@@ -1684,6 +1684,50 @@ Installing or Updating from a Pre-Built Package
 Installing or Updating from source-code
 \end_layout
 
+\begin_layout Chapter
+Sleep and Wake-Up Modes
+\end_layout
+
+\begin_layout Standard
+Whilemean, see:
+\end_layout
+
+\begin_layout Standard
+http://www.intel.com/support/network/sb/cs-008459.htm.
+\end_layout
+
+\begin_layout Chapter
+Peripherals Configuration
+\end_layout
+
+\begin_layout Chapter
+Virtualization
+\end_layout
+
+\begin_layout Section
+Virtual Box
+\end_layout
+
+\begin_layout Standard
+Whilemean, see:
+\end_layout
+
+\begin_layout Standard
+http://www.virtualbox.org
+\end_layout
+
+\begin_layout Section
+Xen
+\end_layout
+
+\begin_layout Standard
+Whilemean, see:
+\end_layout
+
+\begin_layout Standard
+http://www.xen.org
+\end_layout
+
 \begin_layout Part
 Network Concepts and Administration
 \begin_inset LatexCommand \label{par:Network-Administration}
@@ -1691,6 +1735,30 @@ Network Concepts and Administration
 \end_inset
 
 
+\end_layout
+
+\begin_layout Chapter
+Mounting Network File System (NFS)
+\end_layout
+
+\begin_layout Standard
+Whilemean, see:
+\end_layout
+
+\begin_layout Standard
+http://www.linuxquestions.org/questions/linux-newbie-8/mounting-nfs-612918/
+\end_layout
+
+\begin_layout Chapter
+Message Passing Interface (MPI)
+\end_layout
+
+\begin_layout Standard
+Whilemean, see:
+\end_layout
+
+\begin_layout Standard
+https://www.open-mpi.org/
 \end_layout
 
 \begin_layout Part
@@ -1739,6 +1807,26 @@ frontend
 s GUI, quando houver.}
 \end_layout
 
+\begin_layout Chapter
+Converters
+\end_layout
+
+\begin_layout Section
+Image Converters
+\end_layout
+
+\begin_layout Subsection
+Uniconvertor
+\end_layout
+
+\begin_layout Standard
+Whilemean, see:
+\end_layout
+
+\begin_layout Standard
+http://sourceforge.net/projects/uniconvertor/
+\end_layout
+
 \begin_layout Part
 GUI Programs Reference
 \begin_inset LatexCommand \label{par:GUI-Programs}
@@ -1767,6 +1855,26 @@ backend
 \end_inset
 
 s, quando houver.}
+\end_layout
+
+\begin_layout Chapter
+GNU Impress (GIMP)
+\end_layout
+
+\begin_layout Standard
+Whilemean, see:
+\end_layout
+
+\begin_layout Standard
+http://olaubuntu.wordpress.com/2007/06/25/tutorial-gimp-iniciante-atualizando/
+\end_layout
+
+\begin_layout Standard
+http://neacm.fe.up.pt/pub/ledstyle/
+\end_layout
+
+\begin_layout Standard
+http://www.gimp.org/
 \end_layout
 
 \begin_layout Part
