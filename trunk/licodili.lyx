@@ -65,6 +65,7 @@ theorems-ams
 \tracking_changes false
 \output_changes false
 \author "" 
+\author "" 
 \end_header
 
 \begin_body
@@ -641,6 +642,34 @@ vmlinuz
 \end_layout
 
 \begin_layout Subsection
+...
+\end_layout
+
+\begin_layout Section
+Protocols, URL and URI -- Undertanding Them
+\end_layout
+
+\begin_layout Standard
+A brief description of each one follows:
+\end_layout
+
+\begin_layout Description
+http: 
+\end_layout
+
+\begin_layout Description
+ftp: 
+\end_layout
+
+\begin_layout Description
+file:
+\end_layout
+
+\begin_layout Description
+parallel:
+\end_layout
+
+\begin_layout Description
 ...
 \end_layout
 
