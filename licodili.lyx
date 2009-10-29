@@ -1841,6 +1841,58 @@ Set As Default
  on the right side of the printer's name of the choosen printer.
 \end_layout
 
+\begin_layout Subsection
+Printer Options -- Understanding Them
+\end_layout
+
+\begin_layout Standard
+A description of each option type, with some example when necessary for
+ clarity, follows.
+ After, a description of each option for each option type is listed.
+ Eventually, some may be missing.
+ If so, tell that to us.
+\end_layout
+
+\begin_layout Description
+Paper
+\begin_inset space ~
+\end_inset
+
+type: 
+\end_layout
+
+\begin_layout Description
+Resolution:
+\end_layout
+
+\begin_layout Description
+Color
+\begin_inset space ~
+\end_inset
+
+Model:
+\end_layout
+
+\begin_layout Description
+Color
+\begin_inset space ~
+\end_inset
+
+Precision:
+\end_layout
+
+\begin_layout Description
+Print
+\begin_inset space ~
+\end_inset
+
+Quality:
+\end_layout
+
+\begin_layout Description
+...
+\end_layout
+
 \begin_layout Chapter
 Virtualization
 \end_layout
