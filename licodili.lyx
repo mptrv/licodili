@@ -1,5 +1,5 @@
-#LyX 1.4.4 created this file. For more info see http://www.lyx.org/
-\lyxformat 245
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
 \begin_document
 \begin_header
 \textclass amsbook
@@ -28,15 +28,29 @@
 %\package{misc}
 %\package{unidades}
 \end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+\end_modules
 \language english
 \inputencoding auto
-\fontscheme default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
 \graphics default
 \paperfontsize 10
 \spacing single
+\use_hyperref false
 \papersize a4paper
 \use_geometry false
 \use_amsmath 1
+\use_esint 0
 \cite_engine natbib_authoryear
 \use_bibtopic false
 \paperorientation portrait
@@ -50,6 +64,7 @@
 \paperpagestyle plain
 \tracking_changes false
 \output_changes false
+\author "" 
 \end_header
 
 \begin_body
@@ -80,23 +95,24 @@ on License".
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
 
-\newpage
 
 \end_layout
 
 \begin_layout Standard
 {Ilustrado e com Exemplos.
- Com Referências Externas para Aprofundamento.
- As Dicas Incluem Caminhos de Solução para Problemas Normalmente Encontrados.}
+ Com ReferÃªncias Externas para Aprofundamento.
+ As Dicas Incluem Caminhos de SoluÃ§Ã£o para Problemas Normalmente Encontrados.}
 \end_layout
 
 \begin_layout Standard
-Ver também 
+Ver tambÃ©m 
 \emph on
-www.faqs.org/docs 
+www.faqs.org/docs
 \emph default
-(Tópico 
+ (TÃ³pico 
 \emph on
 Linux-related documents
 \emph default
@@ -174,7 +190,7 @@ licodili
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -192,7 +208,7 @@ The author
 \end_layout
 
 \begin_layout Chapter*
-Prefácio
+PrefÃ¡cio
 \end_layout
 
 \begin_layout Standard
@@ -204,7 +220,7 @@ internet
 \begin_inset Quotes erd
 \end_inset
 
-, e não encontrar, por um 
+, e nÃ£o encontrar, por um 
 \begin_inset Quotes eld
 \end_inset
 
@@ -212,17 +228,17 @@ livro aberto
 \begin_inset Quotes erd
 \end_inset
 
- que cobrisse uma coleção das muitas características, recursos, configurações
- e aplicações possíveis e existentes no Linux, resolvi escrever este livro.
- (Se você souber de um, por favor, diga-me.)
+ que cobrisse uma coleÃ§Ã£o das muitas caracterÃ­sticas, recursos, configuraÃ§Ãµes
+ e aplicaÃ§Ãµes possÃ­veis e existentes no Linux, resolvi escrever este livro.
+ (Se vocÃª souber de um, por favor, diga-me.)
 \end_layout
 
 \begin_layout Standard
-A intenção não é tratar de temas de forma muito detalhada, mas tratá-los
- segundo alguns conceitos básicos e dar as essências para se realizar uma
- tarefa básica a respeito de tal assunto -- o que inclui exemplos-chave
+A intenÃ§Ã£o nÃ£o Ã© tratar de temas de forma muito detalhada, mas tratÃ¡-los
+ segundo alguns conceitos bÃ¡sicos e dar as essÃªncias para se realizar uma
+ tarefa bÃ¡sica a respeito de tal assunto -- o que inclui exemplos-chave
  funcionais.
- Adicionalmente, referências na 
+ Adicionalmente, referÃªncias na 
 \begin_inset Quotes eld
 \end_inset
 
@@ -230,18 +246,18 @@ internet
 \begin_inset Quotes erd
 \end_inset
 
- e de livros serão listadas para aqueles que quiserem aprofundar seu conheciment
+ e de livros serÃ£o listadas para aqueles que quiserem aprofundar seu conheciment
 o a respeito de algum assunto.
 \end_layout
 
 \begin_layout Standard
-Outra intenção é que a estrutura deste livro seja de fácil consulta e de
- fácil leitura.
- Em outras palavras, é como se ele fosse um 
+Outra intenÃ§Ã£o Ã© que a estrutura deste livro seja de fÃ¡cil consulta e de
+ fÃ¡cil leitura.
+ Em outras palavras, Ã© como se ele fosse um 
 \begin_inset Quotes eld
 \end_inset
 
-manual de referência rápida
+manual de referÃªncia rÃ¡pida
 \begin_inset Quotes erd
 \end_inset
 
@@ -249,18 +265,18 @@ manual de referência rápida
 \end_layout
 
 \begin_layout Standard
-Assim, espera-se que o público para este trabalho, num primeiro momento,
- estenda-se desde novatos a intermediários quanto aos assuntos Linux.
+Assim, espera-se que o pÃºblico para este trabalho, num primeiro momento,
+ estenda-se desde novatos a intermediÃ¡rios quanto aos assuntos Linux.
 \end_layout
 
 \begin_layout Standard
-Co-autores e contribuidores para escrever seções serão muito bem-vindos.
- Ainda, por causa disto, preferi escrever o texto em inglês, ao invés de
- escrevê-lo na minha língua mãe, o português.
+Co-autores e contribuidores para escrever seÃ§Ãµes serÃ£o muito bem-vindos.
+ Ainda, por causa disto, preferi escrever o texto em inglÃªs, ao invÃ©s de
+ escrevÃª-lo na minha lÃ­ngua mÃ£e, o portuguÃªs.
 \end_layout
 
 \begin_layout Standard
-Finalmente, eu gostaria de enfatizar que este trabalho é publicado de acordo
+Finalmente, eu gostaria de enfatizar que este trabalho Ã© publicado de acordo
  com a GNU FDL (
 \begin_inset Quotes eld
 \end_inset
@@ -269,7 +285,7 @@ GNU Free Documentation License
 \begin_inset Quotes erd
 \end_inset
 
- -- Licensa de Documentação Livre GNU) e atualmente armazenado no 
+ -- Licensa de DocumentaÃ§Ã£o Livre GNU) e atualmente armazenado no 
 \begin_inset Quotes eld
 \end_inset
 
@@ -288,7 +304,7 @@ licodili
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -310,7 +326,7 @@ Presentation
 \end_layout
 
 \begin_layout Chapter*
-Apresentação
+ApresentaÃ§Ã£o
 \end_layout
 
 \begin_layout Part
@@ -648,17 +664,23 @@ system administration
  command set the commands that can be used for configuring the system itself,
  at all its behaviour, and operanting or interating with it.
  This do not include applicatives programs (for they, see parts 
-\begin_inset LatexCommand \ref{par:Command-Line-Programs}
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "par:Command-Line-Programs"
 
 \end_inset
 
  and 
-\begin_inset LatexCommand \ref{par:GUI-Programs}
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "par:GUI-Programs"
 
 \end_inset
 
 ) and complex network configuration (for it, see part 
-\begin_inset LatexCommand \ref{par:Network-Administration}
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "par:Network-Administration"
 
 \end_inset
 
@@ -684,14 +706,14 @@ Basic Command Set -- In Brief
 \begin_inset Tabular
 <lyxtabular version="3" rows="32" columns="3">
 <features islongtable="true" lastFootEmpty="true">
-<column alignment="center" valignment="top" leftline="true" width="0">
-<column alignment="center" valignment="top" leftline="true" width="0">
-<column alignment="center" valignment="top" leftline="true" rightline="true" width="0">
-<row topline="true" bottomline="true" endhead="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row endhead="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \emph on
 Command
@@ -699,10 +721,10 @@ Command
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \emph on
 Description
@@ -710,10 +732,10 @@ Description
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \emph on
 Example
@@ -722,11 +744,11 @@ Example
 \end_inset
 </cell>
 </row>
-<row topline="true" endfoot="true">
+<row endfoot="true">
 <cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \emph on
 continue...
@@ -737,7 +759,7 @@ continue...
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -746,18 +768,18 @@ continue...
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ls
 \end_layout
 
@@ -766,7 +788,7 @@ ls
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -775,18 +797,18 @@ ls
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 cd
 \end_layout
 
@@ -795,7 +817,7 @@ cd
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -804,18 +826,18 @@ cd
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 pwd
 \end_layout
 
@@ -824,7 +846,7 @@ pwd
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -833,18 +855,18 @@ pwd
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 mkdir
 \end_layout
 
@@ -853,7 +875,7 @@ mkdir
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -862,18 +884,18 @@ mkdir
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 rmdir
 \end_layout
 
@@ -882,7 +904,7 @@ rmdir
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -891,18 +913,18 @@ rmdir
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 cp
 \end_layout
 
@@ -911,7 +933,7 @@ cp
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -920,18 +942,18 @@ cp
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 mv
 \end_layout
 
@@ -940,7 +962,7 @@ mv
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -949,18 +971,18 @@ mv
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 rm
 \end_layout
 
@@ -969,7 +991,7 @@ rm
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -978,47 +1000,47 @@ rm
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 rename
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 pushd
 \end_layout
 
@@ -1027,7 +1049,7 @@ pushd
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1036,18 +1058,18 @@ pushd
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 popd
 \end_layout
 
@@ -1056,7 +1078,7 @@ popd
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1065,47 +1087,47 @@ popd
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 dirs
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 find
 \end_layout
 
@@ -1114,7 +1136,7 @@ find
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1123,18 +1145,18 @@ find
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 locate
 \end_layout
 
@@ -1143,7 +1165,7 @@ locate
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1152,76 +1174,76 @@ locate
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 updatedb
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ln
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 chown
 \end_layout
 
@@ -1230,7 +1252,7 @@ chown
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1239,47 +1261,47 @@ chown
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 chmod
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 passwd
 \end_layout
 
@@ -1288,7 +1310,7 @@ passwd
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1297,47 +1319,47 @@ passwd
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 userpasswd
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 adduser
 \end_layout
 
@@ -1346,7 +1368,7 @@ adduser
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1355,18 +1377,18 @@ adduser
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 useradd
 \end_layout
 
@@ -1375,7 +1397,7 @@ useradd
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1384,18 +1406,18 @@ useradd
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 userdel
 \end_layout
 
@@ -1404,7 +1426,7 @@ userdel
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1413,18 +1435,18 @@ userdel
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 usermod
 \end_layout
 
@@ -1433,7 +1455,7 @@ usermod
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1442,18 +1464,18 @@ usermod
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 groupadd
 \end_layout
 
@@ -1462,7 +1484,7 @@ groupadd
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1471,18 +1493,18 @@ groupadd
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 groupdel
 \end_layout
 
@@ -1491,7 +1513,7 @@ groupdel
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1500,18 +1522,18 @@ groupdel
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 groupmod
 \end_layout
 
@@ -1520,7 +1542,7 @@ groupmod
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1529,47 +1551,47 @@ groupmod
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 chpasswd
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 users
 \end_layout
 
@@ -1578,7 +1600,7 @@ users
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1587,36 +1609,36 @@ users
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 groups
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1635,8 +1657,8 @@ Basic Command Set -- More Detailed
 \end_layout
 
 \begin_layout Standard
-{Nesta seção e na outra, lista de referêcia com breve descritivo e exemplo.
- Também, descritivo e exemplo mais detalhado em seguida.
+{Nesta seÃ§Ã£o e na outra, lista de referÃªcia com breve descritivo e exemplo.
+ TambÃ©m, descritivo e exemplo mais detalhado em seguida.
  Consultar 
 \begin_inset Quotes eld
 \end_inset
@@ -1645,7 +1667,7 @@ The Linux Cookbook: tips and techniques for everyday use
 \begin_inset Quotes erd
 \end_inset
 
-, por Michael Stutz, para algumas referências.}
+, por Michael Stutz, para algumas referÃªncias.}
 \end_layout
 
 \begin_layout Section
@@ -1700,6 +1722,96 @@ http://www.intel.com/support/network/sb/cs-008459.htm.
 Peripherals Configuration
 \end_layout
 
+\begin_layout Section
+Printers
+\end_layout
+
+\begin_layout Subsection
+CUPS
+\end_layout
+
+\begin_layout Standard
+The CUPS stands for 
+\emph on
+Common Unix Printing System
+\emph default
+, developed by Apple Inc.
+ Nowadays, its maintanence user interface is built on a web browser style.
+ For accessing it, just type:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+http://127.0.0.1:631/
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ on the web browser.
+\end_layout
+
+\begin_layout Standard
+There, will exist six tabs.
+ A brief description of each one follow:
+\end_layout
+
+\begin_layout Description
+Home: 
+\end_layout
+
+\begin_layout Description
+Administration: 
+\end_layout
+
+\begin_layout Description
+Classes: 
+\end_layout
+
+\begin_layout Description
+Documentation/Help: 
+\end_layout
+
+\begin_layout Description
+Jobs: 
+\end_layout
+
+\begin_layout Description
+Printers:
+\end_layout
+
+\begin_layout Paragraph
+Tip: for the 
+\family typewriter
+'lp'
+\family default
+ command recognize a default printer, in the 
+\emph on
+Printers
+\emph default
+ tab, the 
+\emph on
+Set As Default
+\emph default
+ button must be pressed.
+ After this action, it can be seen the label 
+\series bold
+(Default Printer)
+\series default
+ on the right side of the printer's name of the choosen printer.
+\end_layout
+
 \begin_layout Chapter
 Virtualization
 \end_layout
@@ -1730,7 +1842,9 @@ http://www.xen.org
 
 \begin_layout Part
 Network Concepts and Administration
-\begin_inset LatexCommand \label{par:Network-Administration}
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Network-Administration"
 
 \end_inset
 
@@ -1779,7 +1893,9 @@ Bash -- Command Set and Script Programming
 
 \begin_layout Part
 Command Line Programs Reference
-\begin_inset LatexCommand \label{par:Command-Line-Programs}
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Command-Line-Programs"
 
 \end_inset
 
@@ -1791,12 +1907,12 @@ Command Line Programs Reference
 \begin_inset Quotes eld
 \end_inset
 
-tipo/área/função
+tipo/Ã¡rea/funÃ§Ã£o
 \begin_inset Quotes erd
 \end_inset
 
 .
- Com referências a seus 
+ Com referÃªncias a seus 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1829,7 +1945,9 @@ http://sourceforge.net/projects/uniconvertor/
 
 \begin_layout Part
 GUI Programs Reference
-\begin_inset LatexCommand \label{par:GUI-Programs}
+\begin_inset CommandInset label
+LatexCommand label
+name "par:GUI-Programs"
 
 \end_inset
 
@@ -1841,12 +1959,12 @@ GUI Programs Reference
 \begin_inset Quotes eld
 \end_inset
 
-tipo/área/função
+tipo/Ã¡rea/funÃ§Ã£o
 \begin_inset Quotes erd
 \end_inset
 
 .
- Com referências a seus 
+ Com referÃªncias a seus 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1882,7 +2000,7 @@ Tips for Developers
 \end_layout
 
 \begin_layout Standard
-{Recursos e conjunto de programas úteis para diversos tipos de desenvolvimento.}
+{Recursos e conjunto de programas Ãºteis para diversos tipos de desenvolvimento.}
 \end_layout
 
 \begin_layout Part*
