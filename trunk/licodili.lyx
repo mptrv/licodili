@@ -2005,14 +2005,10 @@ s GUI, quando houver.}
 \end_layout
 
 \begin_layout Chapter
-Converters
+Image and Audio Converters
 \end_layout
 
 \begin_layout Section
-Image Converters
-\end_layout
-
-\begin_layout Subsection
 Uniconvertor
 \end_layout
 
@@ -2022,6 +2018,43 @@ Whilemean, see:
 
 \begin_layout Standard
 http://sourceforge.net/projects/uniconvertor/
+\end_layout
+
+\begin_layout Section
+FFMPEG
+\end_layout
+
+\begin_layout Subsection
+Video Format Conversions
+\end_layout
+
+\begin_layout Standard
+For converting an AVI file to a MPG file, it can be executed, for example:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+ffmpeg -i in_file.avi -target ntsc-vcd out_file.mpg
+\end_layout
+
+\begin_layout Subsection
+Video File Size Conversions
+\end_layout
+
+\begin_layout Paragraph
+For reducing the size of a file, execute, for example (the quality will
+ be lowered):
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+ffmpeg -i in_file.mpg -b 500k out_file.mpg
+\end_layout
+
+\begin_layout Standard
+See the man page for more informations.
 \end_layout
 
 \begin_layout Part
