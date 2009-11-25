@@ -1735,6 +1735,39 @@ Installing or Updating from a Pre-Built Package
 Installing or Updating from source-code
 \end_layout
 
+\begin_layout Subsection
+Troubleshooting Tips
+\end_layout
+
+\begin_layout Subsubsection
+Runtime Error While Looking for a Shared Library
+\end_layout
+
+\begin_layout Standard
+After installing a package with shared libraries, if an error message comes
+ on saying that a library could not be found, even it was correctly installed,
+ the problem may consist within path references.
+ For example, the shared libraries could be installed on 
+\family typewriter
+/usr/local/lib 
+\family default
+and the loader could search they on 
+\family typewriter
+/usr/lib64
+\family default
+.
+ In this case, a solution, that normally works well, is to do symlinks for
+ the libraries in 
+\family typewriter
+/usr/local/lib
+\family default
+ on 
+\family typewriter
+/usr/lib64
+\family default
+.
+\end_layout
+
 \begin_layout Chapter
 Sleep and Wake-Up Modes
 \end_layout
