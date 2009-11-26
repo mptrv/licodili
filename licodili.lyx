@@ -2090,6 +2090,74 @@ ffmpeg -i in_file.mpg -b 500k out_file.mpg
 See the man page for more informations.
 \end_layout
 
+\begin_layout Subsection
+Converting Video Files for MP4 Players
+\end_layout
+
+\begin_layout Standard
+One can use the 
+\family typewriter
+amv-ffmpeg
+\family default
+, instead of the common 
+\family typewriter
+ffmpeg
+\family default
+.
+ It can be downloaded from
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+target "http://amv-codec-tools.googlecode.com/files/amv-ffmpeg-linux-i386-20071030"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A sample use of it can be:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+amv-ffmpeg -i file.mpg -s 128x96 -b 500k -r 16 -ar 22050 -ac 1 file.amv
+\end_layout
+
+\begin_layout Standard
+Note that the audio must have the sample frequency of 22050 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hertz
+\end_layout
+
+\end_inset
+
+ and only one channel (mono sound).
+\end_layout
+
+\begin_layout Standard
+More informations can be obtained on
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.vivaolinux.com.br/artigo/Convertendo-de-AVI-para-AMV-nativamente/"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 GUI Programs Reference
 \begin_inset CommandInset label
