@@ -2158,6 +2158,54 @@ target "http://www.vivaolinux.com.br/artigo/Convertendo-de-AVI-para-AMV-nativame
 
 \end_layout
 
+\begin_layout Chapter
+PS and PDF Stuff
+\end_layout
+
+\begin_layout Section
+Concatenating PDF Files
+\end_layout
+
+\begin_layout Standard
+Frequently, converting PDF files to PS, then using 
+\family typewriter
+psmerge
+\family default
+, waiting for converting the resulting PS file to PDF, does not work.
+ This because 
+\family typewriter
+psmerge
+\family default
+ is very limited and, sometimes, informations on PDF files are lost during
+ the conversion, such as index entry.
+ One alternative is to use the following command, which makes use of 
+\emph on
+ghostscript
+\emph default
+:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+gs -q -sPAPERSIZE=letter -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=out.pdf
+ in1.pdf in2.pdf in3.pdf ...
+\end_layout
+
+\begin_layout Standard
+More information about this topic can be found at
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+target "http://ansuz.sooke.bc.ca/software/pdf-append.php"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 GUI Programs Reference
 \begin_inset CommandInset label
