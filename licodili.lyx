@@ -2042,7 +2042,7 @@ Image and Audio Converters
 \end_layout
 
 \begin_layout Section
-Uniconvertor
+uniconvertor
 \end_layout
 
 \begin_layout Standard
@@ -2054,7 +2054,7 @@ http://sourceforge.net/projects/uniconvertor/
 \end_layout
 
 \begin_layout Section
-FFMPEG
+ffmpeg
 \end_layout
 
 \begin_layout Subsection
@@ -2068,7 +2068,7 @@ For converting an AVI file to a MPG file, it can be executed, for example:
 \begin_layout Standard
 
 \family typewriter
-ffmpeg -i in_file.avi -target ntsc-vcd out_file.mpg
+$ ffmpeg -i in_file.avi -target ntsc-vcd out_file.mpg
 \end_layout
 
 \begin_layout Subsection
@@ -2080,10 +2080,10 @@ For reducing the size of a file, execute, for example (the quality will
  be lowered):
 \end_layout
 
-\begin_layout Standard
+\begin_layout Paragraph
 
 \family typewriter
-ffmpeg -i in_file.mpg -b 500k out_file.mpg
+$ ffmpeg -i in_file.mpg -b 500k out_file.mpg
 \end_layout
 
 \begin_layout Standard
@@ -2124,7 +2124,7 @@ A sample use of it can be:
 \begin_layout Standard
 
 \family typewriter
-amv-ffmpeg -i file.mpg -s 128x96 -b 500k -r 16 -ar 22050 -ac 1 file.amv
+$ amv-ffmpeg -i file.mpg -s 128x96 -b 500k -r 16 -ar 22050 -ac 1 file.amv
 \end_layout
 
 \begin_layout Standard
@@ -2163,6 +2163,10 @@ PS and PDF Stuff
 \end_layout
 
 \begin_layout Section
+gs
+\end_layout
+
+\begin_layout Subsection
 Concatenating PDF Files
 \end_layout
 
@@ -2188,8 +2192,8 @@ ghostscript
 \begin_layout Standard
 
 \family typewriter
-gs -q -sPAPERSIZE=letter -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=out.pdf
- in1.pdf in2.pdf in3.pdf ...
+$ gs -q -sPAPERSIZE=letter -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=out.p
+df in1.pdf in2.pdf in3.pdf ...
 \end_layout
 
 \begin_layout Standard
@@ -2204,6 +2208,29 @@ target "http://ansuz.sooke.bc.ca/software/pdf-append.php"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Chapter
+Network Material
+\end_layout
+
+\begin_layout Section
+ip
+\end_layout
+
+\begin_layout Standard
+Show / manipulate routing, devices, policy routing and tunnels.
+ Example:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+$ ip addr show
+\end_layout
+
+\begin_layout Standard
+Whilemean, see the man page for more details.
 \end_layout
 
 \begin_layout Part
