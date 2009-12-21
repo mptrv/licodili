@@ -2038,6 +2038,62 @@ s GUI, quando houver.}
 \end_layout
 
 \begin_layout Chapter
+File Viewers
+\end_layout
+
+\begin_layout Section
+Less
+\end_layout
+
+\begin_layout Chapter
+Text Editors
+\end_layout
+
+\begin_layout Section
+Vim
+\end_layout
+
+\begin_layout Section
+Joe
+\end_layout
+
+\begin_layout Chapter
+Document Typesetters
+\end_layout
+
+\begin_layout Section
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tex
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+latex
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
 Image and Audio Converters
 \end_layout
 
@@ -2266,6 +2322,56 @@ s, quando houver.}
 \end_layout
 
 \begin_layout Chapter
+Text Editors
+\end_layout
+
+\begin_layout Chapter
+Document Processors, Typesetters and Alikes
+\end_layout
+
+\begin_layout Section
+Lyx
+\end_layout
+
+\begin_layout Standard
+Whilemean, see
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.lyx.org"
+target "http://www.lyx.org"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+KBibTex
+\end_layout
+
+\begin_layout Standard
+Whilemean, see
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.unix-ag.uni-kl.de/~fischer/kbibtex/"
+target "http://www.unix-ag.uni-kl.de/~fischer/kbibtex/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Image Editors
+\end_layout
+
+\begin_layout Section
 GNU Impress (GIMP)
 \end_layout
 
