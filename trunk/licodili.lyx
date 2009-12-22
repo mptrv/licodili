@@ -2367,6 +2367,27 @@ target "http://www.unix-ag.uni-kl.de/~fischer/kbibtex/"
 
 \end_layout
 
+\begin_layout Paragraph
+Tip: If it is intended that the name of the author do not be wrote in the
+ form 
+\begin_inset Quotes eld
+\end_inset
+
+second_name, first_name
+\begin_inset Quotes erd
+\end_inset
+
+, end the name with a comma, resulting in 
+\begin_inset Quotes eld
+\end_inset
+
+first_name second_name,
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Chapter
 Image Editors
 \end_layout
