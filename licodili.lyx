@@ -1785,6 +1785,29 @@ Peripherals Configuration
 \end_layout
 
 \begin_layout Section
+Hard Drives
+\end_layout
+
+\begin_layout Subsection
+Formatting a Hard Drive
+\end_layout
+
+\begin_layout Standard
+Whilemean, see:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.ehow.com/how_1000631_hard-drive-linux.html"
+target "http://www.ehow.com/how_1000631_hard-drive-linux.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Printers
 \end_layout
 
