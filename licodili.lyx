@@ -1807,6 +1807,17 @@ target "http://www.ehow.com/how_1000631_hard-drive-linux.html"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.cyberciti.biz/faq/linux-disk-format/"
+target "http://www.cyberciti.biz/faq/linux-disk-format/"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Printers
 \end_layout
