@@ -2305,6 +2305,8 @@ Network Material
 \end_layout
 
 \begin_layout Section
+
+\family typewriter
 ip
 \end_layout
 
@@ -2323,6 +2325,40 @@ $ ip addr show
 Whilemean, see the man page for more details.
 \end_layout
 
+\begin_layout Section
+
+\family typewriter
+wget
+\end_layout
+
+\begin_layout Standard
+Gets contents from internet.
+\end_layout
+
+\begin_layout Standard
+Examples follow, for getting archivies from internet in:
+\end_layout
+
+\begin_layout Description
+Only
+\begin_inset space \space{}
+\end_inset
+
+one
+\begin_inset space \space{}
+\end_inset
+
+directory: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\family typewriter
+$ wget -r -nd -np http://address.com/dir/
+\end_layout
+
+\end_deeper
 \begin_layout Part
 GUI Programs Reference
 \begin_inset CommandInset label
