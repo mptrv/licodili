@@ -2036,6 +2036,64 @@ Gnome
 \end_layout
 
 \begin_layout Part
+Virtualization
+\end_layout
+
+\begin_layout Chapter
+Introduction on Virtualization
+\end_layout
+
+\begin_layout Chapter
+VirtualBox
+\end_layout
+
+\begin_layout Section
+Sharing Folders
+\end_layout
+
+\begin_layout Subsection
+Defining a Folder for Sharing
+\end_layout
+
+\begin_layout Subsection
+Guest Access of a Shared Folder
+\end_layout
+
+\begin_layout Description
+DOS/Windows: 
+\family typewriter
+net use 
+\emph on
+x:
+\emph default
+ 
+\backslash
+
+\backslash
+vboxsvr
+\backslash
+
+\emph on
+sharing_name
+\end_layout
+
+\begin_layout Description
+Linux: 
+\family typewriter
+mount -t vboxsf 
+\emph on
+sharing_name
+\emph default
+ 
+\emph on
+mounting_point
+\end_layout
+
+\begin_layout Chapter
+Xen
+\end_layout
+
+\begin_layout Part
 Bash -- Command Set and Script Programming
 \end_layout
 
