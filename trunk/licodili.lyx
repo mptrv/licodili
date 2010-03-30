@@ -25,8 +25,8 @@
 %   License and the GNU Free Documentation License are entirely reproduced
 %   in the book text.
 
-%\package{misc}
-%\package{unidades}
+\usepackage{misc}
+\usepackage{unidades}
 \end_preamble
 \use_default_options false
 \begin_modules
@@ -1768,6 +1768,43 @@ and the loader could search they on
 .
 \end_layout
 
+\begin_layout Section
+Repositories
+\end_layout
+
+\begin_layout Subsection
+Adding a Repository
+\end_layout
+
+\begin_layout Section
+Aternatives Packages
+\end_layout
+
+\begin_layout Subsection
+Configuring an Alternative Package
+\end_layout
+
+\begin_layout Standard
+When there are multiple versions of some package, it is possible to choose
+ one of they to be active.
+ To do this, use the command '
+\family typewriter
+upadate-alternatives
+\family default
+'.
+ For example:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+$ update-alternatives --config java
+\end_layout
+
+\begin_layout Standard
+For more information, see its manpage.
+\end_layout
+
 \begin_layout Chapter
 Sleep and Wake-Up Modes
 \end_layout
@@ -1988,6 +2025,52 @@ Whilemean, see:
 http://www.xen.org
 \end_layout
 
+\begin_layout Chapter
+Debugging the System in Run-Time
+\end_layout
+
+\begin_layout Section
+Using the 
+\family typewriter
+strace
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Using-the-strace"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This command traces system calls and signals.
+ As said in its manpage, 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+
+\family typewriter
+strace
+\family default
+ is a useful diagnostic, instructional, and debugging tool.
+ System administrators, diagnosticians and trouble-shooters will find it
+ invalu‐ able for solving problems with programs for which the source is
+ not read‐ ily available since they do not need to be recompiled in order
+ to trace them
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Whilemean, see its manpage.
+\end_layout
+
 \begin_layout Part
 Network Concepts and Administration
 \begin_inset CommandInset label
@@ -2021,6 +2104,50 @@ Whilemean, see:
 
 \begin_layout Standard
 https://www.open-mpi.org/
+\end_layout
+
+\begin_layout Chapter
+Programming Languages for Network
+\end_layout
+
+\begin_layout Section
+Java
+\end_layout
+
+\begin_layout Standard
+There are two types of Java:
+\end_layout
+
+\begin_layout Description
+Java
+\begin_inset space ~
+\end_inset
+
+Open-Jdk: open version of Java.
+\end_layout
+
+\begin_layout Description
+Sun: Java version maintaned and distributed by Sun Microsystems.
+\end_layout
+
+\begin_layout Standard
+The differences between both are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ldots
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
@@ -2161,7 +2288,7 @@ status open
 
 
 \backslash
-tex
+TeX
 \end_layout
 
 \end_inset
@@ -2177,7 +2304,7 @@ status open
 
 
 \backslash
-latex
+LaTeX
 \end_layout
 
 \end_inset
@@ -2417,6 +2544,37 @@ $ wget -r -nd -np http://address.com/dir/
 \end_layout
 
 \end_deeper
+\begin_layout Chapter
+Compilers
+\end_layout
+
+\begin_layout Chapter
+Debuggers
+\end_layout
+
+\begin_layout Section
+
+\family typewriter
+strace
+\end_layout
+
+\begin_layout Standard
+
+\family sans
+Trace system calls and signals.
+\end_layout
+
+\begin_layout Standard
+For futher information, see 
+\begin_inset CommandInset ref
+LatexCommand prettyref
+reference "sec:Using-the-strace"
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Part
 GUI Programs Reference
 \begin_inset CommandInset label
