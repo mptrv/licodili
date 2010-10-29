@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -1727,6 +1727,13 @@ installer
 Programs that Manage Packages
 \end_layout
 
+\begin_layout Subsection
+
+\family typewriter
+\series medium
+pkg-config
+\end_layout
+
 \begin_layout Section
 Installing or Updating from a Pre-Built Package
 \end_layout
@@ -1766,6 +1773,57 @@ and the loader could search they on
 /usr/lib64
 \family default
 .
+\end_layout
+
+\begin_layout Subsubsection
+Not Found Installed Pakages
+\end_layout
+
+\begin_layout Standard
+Mainly in 64 bits systems, after 
+\family typewriter
+'configure'
+\family default
+ some package and installing it, the 
+\family typewriter
+'pkg-config'
+\family default
+ may not find this package during the configuration of another package.
+ One reson for this is the library directory looked for by the 
+\family typewriter
+'pkg-config'
+\family default
+.
+ In such 64 bits systems, seems that the default is to look at 
+\family typewriter
+/usr/lib64
+\family default
+, while the package continues to set it's default to 
+\family typewriter
+/usr/lib
+\family default
+.
+ Thus, futher 
+\emph on
+configures
+\emph default
+ of other packages will not find the previously required and installed package.
+ This issue can be solved by passing an argument for the 
+\family typewriter
+'configure'
+\family default
+ telling it that the library should be in 
+\family typewriter
+/usr/lib64
+\family default
+.
+ Then, the resulting command would be like:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+$ ./configure --libdir=/usr/lib64
 \end_layout
 
 \begin_layout Section
