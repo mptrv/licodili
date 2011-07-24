@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.9 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -25,12 +25,14 @@
 %   License and the GNU Free Documentation License are entirely reproduced
 %   in the book text.
 
-\usepackage{misc}
-\usepackage{unidades}
+\usepackage[load-configurations=version-1]{siunitx}
+%\usepackage{misc}
 \end_preamble
 \use_default_options false
 \begin_modules
 theorems-ams
+eqs-within-sections
+figs-within-sections
 \end_modules
 \language english
 \inputencoding auto
@@ -46,7 +48,16 @@ theorems-ams
 \graphics default
 \paperfontsize 10
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize a4paper
 \use_geometry false
 \use_amsmath 1
@@ -72,10 +83,17 @@ theorems-ams
 
 \begin_layout Title
 Book of Linux Concepts and Tips
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Title
 Livro de Conceitos e Dicas Linux
+\begin_inset Newline newline
+\end_inset
+
+
+\size footnotesize
+v.
+ 0.0.0-alfa0
 \end_layout
 
 \begin_layout Author
@@ -322,6 +340,15 @@ bigskip
 O autor
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter*
 Presentation
 \end_layout
@@ -384,6 +411,142 @@ Packages
 
 \begin_layout Chapter
 Linux Distributions
+\end_layout
+
+\begin_layout Part
+Programs and Applications by Class
+\end_layout
+
+\begin_layout Standard
+In this part, programs and applications are presented by their classes,
+ i\SpecialChar \@.
+e\SpecialChar \@.
+, by 
+\emph on
+related to what one wishes to do
+\emph default
+.
+ There is a 
+\emph on
+main list
+\emph default
+, which lists the five or six good options for programs at some functional
+ requirement, and an 
+\emph on
+additional list
+\emph default
+, which lists other good programs for that.
+ For each program follows a breaf description and a link to its home page
+ or, otherwise, a reference to another section of this document where these
+ and more information will be found.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+You can contribute by suggesting other programs and by classificating the
+ ones in the 
+\emph default
+Main List
+\emph on
+.
+\end_layout
+
+\begin_layout Chapter
+Audio
+\end_layout
+
+\begin_layout Section
+Players
+\end_layout
+
+\begin_layout Section
+Editors
+\end_layout
+
+\begin_layout Section
+Converters
+\end_layout
+
+\begin_layout Chapter
+Video
+\end_layout
+
+\begin_layout Section
+Players
+\end_layout
+
+\begin_layout Subsection*
+Main List
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+SMPlayer
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+See 
+\begin_inset CommandInset ref
+LatexCommand prettyref
+reference "sec:SMPlayer"
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\family sans
+VLC
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+Totem
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+Xine
+\end_layout
+
+\begin_layout Enumerate
+Kaffeine
+\end_layout
+
+\begin_layout Subsection*
+Additional List
+\end_layout
+
+\begin_layout Enumerate
+Parole
+\end_layout
+
+\begin_layout Section
+Editors
+\end_layout
+
+\begin_layout Section
+Converters
+\end_layout
+
+\begin_layout Section
+DVD and VCD Creators
+\end_layout
+
+\begin_layout Chapter
+Virtualization
 \end_layout
 
 \begin_layout Part
@@ -2209,6 +2372,167 @@ ldots
 \end_layout
 
 \begin_layout Part
+Other Useful Concepts
+\end_layout
+
+\begin_layout Standard
+Here, it is presented some useful concepts, mainly those related to options
+ available in the programs.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+You can contribute writing the concepts and listing others.
+\end_layout
+
+\begin_layout Chapter
+Audio
+\end_layout
+
+\begin_layout Chapter
+Video
+\end_layout
+
+\begin_layout Section
+Deinterlacement
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Deinterlace
+\emph default
+ a video means\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+In the descriptions below, some deinterlace types are presented.
+\end_layout
+
+\begin_layout Description
+Lowpass5
+\end_layout
+
+\begin_layout Description
+Yadif
+\end_layout
+
+\begin_layout Description
+Yadif
+\begin_inset space ~
+\end_inset
+
+(2
+\begin_inset Formula $\!\times$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Description
+Linear
+\begin_inset space ~
+\end_inset
+
+Blend
+\end_layout
+
+\begin_layout Description
+Kerndeint
+\end_layout
+
+\begin_layout Description
+X
+\end_layout
+
+\begin_layout Description
+Bob
+\end_layout
+
+\begin_layout Description
+Mean
+\end_layout
+
+\begin_layout Description
+Blend
+\end_layout
+
+\begin_layout Description
+Discard
+\end_layout
+
+\begin_layout Section
+Filters
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Filter
+\emph default
+ a video means\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+In the descriptions below, some filter types are presented.
+\end_layout
+
+\begin_layout Description
+Postprocessing
+\end_layout
+
+\begin_layout Description
+Autodetect
+\begin_inset space ~
+\end_inset
+
+Phase
+\end_layout
+
+\begin_layout Description
+Deblock
+\end_layout
+
+\begin_layout Description
+Dering
+\end_layout
+
+\begin_layout Description
+Add
+\begin_inset space ~
+\end_inset
+
+Noise
+\end_layout
+
+\begin_layout Description
+Add
+\begin_inset space ~
+\end_inset
+
+Black
+\begin_inset space ~
+\end_inset
+
+Box
+\end_layout
+
+\begin_layout Description
+Software
+\begin_inset space ~
+\end_inset
+
+Scaling
+\end_layout
+
+\begin_layout Part
 Working Environments
 \end_layout
 
@@ -2312,6 +2636,16 @@ frontend
 \end_inset
 
 s GUI, quando houver.}
+\end_layout
+
+\begin_layout Chapter
+Audio and Video
+\end_layout
+
+\begin_layout Section
+
+\family sans
+FFmpeg
 \end_layout
 
 \begin_layout Chapter
@@ -2666,6 +3000,23 @@ s, quando houver.}
 \end_layout
 
 \begin_layout Chapter
+Audio and Video
+\end_layout
+
+\begin_layout Section
+
+\family sans
+SMPlayer
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:SMPlayer"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
 Text Editors
 \end_layout
 
@@ -2737,6 +3088,8 @@ Image Editors
 \end_layout
 
 \begin_layout Section
+
+\family sans
 GNU Impress (GIMP)
 \end_layout
 
