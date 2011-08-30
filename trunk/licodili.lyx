@@ -2218,6 +2218,40 @@ Quality:
 ...
 \end_layout
 
+\begin_layout Subsection
+Canceling Jobs
+\end_layout
+
+\begin_layout Standard
+To see what jobs there are:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+$ lpq
+\end_layout
+
+\begin_layout Standard
+To cancel the jobs owned by user:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+$ cancel -u user
+\end_layout
+
+\begin_layout Standard
+To cancel all jobs (root loggin needed):
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+$ cancel -a
+\end_layout
+
 \begin_layout Chapter
 Virtualization
 \end_layout
